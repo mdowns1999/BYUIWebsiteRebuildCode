@@ -5,7 +5,7 @@ Welcome to my BYUI site rebuild! The purpose of this project was to build the si
 * [Software Demo Video](http://youtu.be/QDyYZmOxqsQ?hd=1)
 * [Live Website Site](https://mdowns1999.github.io/BYUIWebsiteRebuildCode/)
 
-# Development Environment
+# Development Environment 
 
 The enviroment I used for this project was Visual Studio Code by Mircorsoft.  The Web Page was deployed on GitHub.  This project used HTML, CSS, SASS, and Javascript.  If you messa round with the CSS, make sure to run the sass complier and edit in the SASS files.
 
