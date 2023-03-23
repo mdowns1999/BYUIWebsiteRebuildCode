@@ -1,0 +1,41 @@
+@use 'variables' as v;
+//Layout of Dates
+.dates{
+    width: 100%;
+    margin-bottom: 8%;
+
+    h3{
+        background-color: v.$byui-blue;
+        color:white;
+        font-weight: 400;
+        border: 1px solid v.$light-gray;
+        padding:8px 20px;
+        font-size: 22px
+    }
+    
+    .dates_event
+    {
+        display:flex;
+        //justify-content: space-between;
+        border-bottom: 1px solid v.$light-gray;
+        padding:8px 20px;
+        text-decoration: none;
+        color:black;
+        font-size: 13px;
+
+        &:hover{
+            color:v.$link-blue;
+        }
+
+        p:first-child{
+            font-weight: 700;
+            
+        }
+
+        span{
+            margin-right: 8%;
+            margin-left: 8%;
+        }
+
+    }
+}

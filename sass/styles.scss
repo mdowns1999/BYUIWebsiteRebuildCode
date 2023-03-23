@@ -1,0 +1,53 @@
+//sass sass/styles.scss css/styles.css -w 
+@use 'reset';
+@use 'variables';
+@use 'typography';
+@use 'icons';
+@use 'position';
+@use 'get-info-box';
+@use 'header';
+@use 'footer';
+@use 'byui-logo';
+@use 'resources';
+@use 'dates';
+@use 'heroBox';
+@use 'gallery-boxes';
+@use 'news';
+@use 'slide';
+
+
+// $sm-break: 48em;
+// // colors
+// $dark-gray: #727272;
+// $med-gray: #b4b3b5;
+// $light-gray: #eaeaea;
+// $body-font: #020202;
+// $link-blue: #0076b6; //why do we have both of these blues?
+// $byui-blue: #056cb6;
+
+// Utility classes
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  
+}
+
+body{
+  font-family: "BYUI Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+main{
+  margin: 0 auto;
+  width:100%;
+  max-width: 1100px;
+  padding: 0 15px;
+}
+

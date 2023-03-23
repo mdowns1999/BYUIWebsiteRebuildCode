@@ -1,0 +1,18 @@
+@use 'variables' as v;
+.icon-byui-logo{
+    text-align: center;
+    display:block;
+    background-color: black;
+    font-size: 30px;
+    color:white;
+    height:100%;
+    padding:15px 10px;
+}
+
+.site-banner__left{
+    height: 100%;
+    a{
+        text-decoration: none;
+    }
+}
+

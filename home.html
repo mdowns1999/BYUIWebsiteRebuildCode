@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Brigham Young University - Idaho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="site-banner">
+        <div class="site-banner__left">
+          <a href="#"
+            ><span aria-hidden="true" class="icon-byui-logo common-button-icon">
+              <span class="sr-only">Link to BYU-Idaho home page</span>
+            </span></a
+          >
+        </div>
+        <div class="site-banner__right">
+          <a href="#">
+            <span class="common-button-icon icon-magnifying-glass">
+              <!-- <span class="icon-search text-white mobile-header-icon"></span> -->
+              <span class="sr-only">Search BYU-I</span>
+            </span>
+          </a>
+          <a
+            href="#"
+          >
+            <span class="common-button-icon icon-user">
+              <span class="sr-only">Login</span>
+            </span>
+          </a>
+          <a href="#">
+            <span class="icon-menu common-button-icon" id="menuBtn" onclick="toggleNav()">
+              <span class="sr-only">Expand Menu</span>
+            </span>
+          </a>
+        </div>
+
+      </div>
+      <div class="site-header">
+        <h1>Brigham Young University-Idaho</h1>
+      </div>
+
+    </header>
+
+    <main>
+      <!--HERO IMAGE AND GALLERY PICTURES-->
+      <!-- <section class="presentBox"> -->
+        <div class="presentBoxLeft">
+          <div aria-hidden="true" class="heroImage">
+            <img
+              alt="Student focused by Desgin Pic"
+              src="https://www.byui.edu/images/homepage-main/pagebuilder/new_pictures/6-Cody_ReadWorld.jpg"
+              
+            />
+          </div>
+
+          <div class="galleryBoxes">
+            <div class="interest-box">
+              <a href="#">
+                  <img
+                    alt="Campus Videos Picture"
+                    src="https://www.byui.edu/images/homepage-main/pagebuilder/CampusVideos.jpg"
+                  />
+                  <p>Campus Video <span aria-hidden="true" class="icon-angle-right"></span></p>
+              </a>
+            </div>
+
+            <div class="interest-box">
+              <a href="#">
+                  <img
+                    alt="Picture of Taylor"
+                    src="https://www.byui.edu/images/homepage-main/pagebuilder/PhotoGallery%280%29.jpg"
+                  />
+                  <!-- icon-angle-right  -->
+                  <p>Photo Gallery <span aria-hidden="true" class="icon-angle-right "></span></p>
+              </a>
+            </div>
+
+            <div class="interest-box">
+              <a href="#">
+                  <img
+                    alt="Campus Picture"
+                    src="https://www.byui.edu/images/homepage-main/pagebuilder/ExploreCampus.jpg"
+                  />
+                  <p>Explore Campus <span aria-hidden="true" class="icon-angle-right"></span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--RESOURCES and DATES LINKS-->
+        <aside class="presentBoxRight">
+          
+          <section class="get-info-box">
+            <label for="info-toggle" class="get-info-box__label">
+              Get Information For: <span class="icon-triangle-down"></span>
+            </label>
+            <input type="checkbox" name="info-toggle" id="info-toggle"
+            class="get-info-box__toggle">
+            <ul class="get-info-box__list">
+              <li><a href="#">Future Students</a></li>
+              <li><a href="#">Current Students</a></li>
+              <li><a href="#">Employees</a></li>
+              <li><a href="#">Parents and Family</a></li>
+              <li><a href="#">Visitors</a></li>
+            </ul>
+          </section>
+          
+
+
+          <div class="resources">
+            <h3>Resources</h3>
+            <div class="resources__links">
+              <a href="#">Apply Now <span class="icon-angle-right"></span></a>
+              <a href="#">Financial Aid <span class="icon-angle-right"></span></a>
+              <a href="#">Degrees and Programs <span class="icon-angle-right"></span></a>
+              <a href="#">Student Housing <span class="icon-angle-right"></span></a>
+              <a href="#">Tuition and Fees <span class="icon-angle-right"></span></a>
+              <a href="#">Devotional <span class="icon-angle-right"></span></a>
+            </div>
+          </div>
+
+          <!-- ASIDE LIST 2 -->
+          <div class="dates">
+            <h3>Important Dates</h3>
+            <a href="#" class="dates_event">
+              <p>Mar 07</p>
+              <span aria-hidden="true">-</span>
+              <p>Devotional - Ray Slight</p>
+            </a>
+            <a href="#" class="dates_event">
+              <p>Mar 14</p>
+              <span aria-hidden="true">-</span>
+              <p>Devotional - Elder Peter M. Johnson</p>
+            </a>
+          </div>
+        </aside>
+      <!-- </section> -->
+
+
+      <!-- NEWS BOX -->
+      <div id="news">
+        <article class="newsBox">
+        <div class="newImg">
+          <img
+            alt="Ryan Hamiliton Picture"
+            src="https://www.byui.edu/images/Ryan%20Hamilton%20Photo%20%287%29%20%281%29.jpg"
+            width="180px"
+            height="140px"
+          />
+        </div>
+      <div class="newsContent">
+          <p class="date">FEBRUARY 24, 2023</p>
+          <h4>Ryan Hamilton to Perform at BYU-Idaho</h4>
+          <p>
+            Comedian Ryan Hamilton will take the BYU-Idaho Center stage on March
+            10
+          </p>
+        </div>
+        </article>
+
+        <article class="newsBox">
+          <div class="newImg">
+          <img
+            alt="BYU-IDAHO Theatre Picture"
+            src="https://www.byui.edu/images/theatre-dance/Theare/Winter%202022/170525_SnowBldgTour_083%20%283%29.jpg"
+            width="180px"
+            height="140px"
+          />
+        </div>
+      <div class="newsContent">
+          <p class="date">FEBRUARY 15, 2023</p>
+          <h4>
+            BYU-Idaho Theatre and Dance Students to Perform "As It Is in Heaven"
+          </h4>
+          <p>
+            Students will share messages about faith and community through their
+            performances.
+          </p>
+        </div>
+        </article>
+
+        <article class="newsBox">
+        <div class="newImg">
+          <img
+            alt="BYUI Audience Picture"
+            src="https://www.byui.edu/images/050502_Audience_wide_1.jpg"
+            width="180px"
+            height="140px"
+          />
+        </div>
+      <div class="newsContent">
+          <p class="date">FEBRUARY 9, 2023</p>
+          <h4>BYU-Idaho Winter 2023 Enrollment Numbers Released</h4>
+          <p>
+            Enrollment numbers for the Winter 2023 Semester are now available.
+          </p>
+        <div>
+        </article>
+
+        
+      </div>
+      <a href="#" class="newsContentBtn">Newsroom</a>
+    </main>
+    <footer>
+      <div class="taylorBuildingPic"></div>
+      <section class="footerSection">
+      <div class="footerSection__contact">
+        <h3>Contact</h3>
+        <a href="#" ><span class="icon-office"></span>210 West 4th South Rexburg, ID, 83460</a>
+        <a href="#"> <span class="icon-text"></span>TEXT: (208) 496-1411</a>
+        <a href="#"> <span class="icon-phone"></span>CALL: (208) 496-1411</a>
+        <a href="#"> <span class="icon-mail"></span>ask@byui.edu</a>
+        <a href="#"> <span class="icon-chat"></span>Feedback</a>
+        <a href="#">WhatsApp</a>
+      </div>
+      <div class="footerSection__social">
+        <h3>Follow</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">ask@byui.edu</a>
+        <a href="#">YouTube</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="footerSection__popular">
+        <h3>Popular</h3>
+        <a href="#">Devotionals</a>
+        <a href="#">ID Cards</a>
+        <a href="#">Jobs and Employment</a>
+        <a href="#">ask@byui.edu</a>
+        <a href="#">Ticket Office</a>
+        <a href="#">Wards and Stakes</a>
+      </div>
+      <div class="footerSection__help">
+        <h3>Help</h3>
+        <a href="#">Accessibility Services</a>
+        <a href="#">OneStop Help</a>
+        <a href="#">Campus Map</a>
+      </div>
+    </section>
+    </footer>
+
+    <script src="js/animation.js"></script>    
+  </body>
+</html>
+

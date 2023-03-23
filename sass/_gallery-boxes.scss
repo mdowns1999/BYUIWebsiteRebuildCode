@@ -1,0 +1,56 @@
+@use 'variables' as v;
+
+.galleryBoxes{
+    display:flex;
+    // flex-wrap:wrap;
+    flex-direction: column;
+}
+
+    .interest-box{
+        
+        //max-width: 100%;
+        img{
+            width:100%;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+
+//Style boxes Layout
+.interest-box{
+
+    border: 2px solid v.$light-gray;
+    margin-bottom: 8%;
+    a{
+        text-decoration: none;
+        color:v.$byui-blue;
+    }
+
+    p{
+        padding:10px;
+    }
+
+    span{
+        float:right;
+        font-weight: 100;
+    }
+}
+
+.interest-box:first-child{
+    margin-top: 8%;
+}
+
+@media only screen and (min-width: 760px) {
+    .galleryBoxes{
+        flex-direction: row;
+        gap:5%;
+        margin-top: 20px;
+    }
+
+    .interest-box:first-child{
+        margin-top: 0%;
+    }
+
+    
+}

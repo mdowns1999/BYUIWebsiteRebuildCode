@@ -1,0 +1,80 @@
+@use 'variables' as v;
+
+.get-info-box{
+    //width: clamp(50%, 80%, 100%);
+    
+    
+    margin-bottom: 8%;
+    &__label{
+        background-color:v.$light-gray;
+        text-transform:uppercase;
+        font-weight: 700;
+        font-size: 15px;
+        padding:.5em 1em;
+        border-radius: 5px;
+        border: 1px solid v.$dark-gray;
+        display:block;
+        cursor:pointer;
+
+        span{
+            float:right;
+        }
+    }
+
+    &__list{
+        height: 0;
+        opacity:0;
+        transition:all .3s;
+        list-style: none;
+        background-color: white;
+        position:absolute;
+        width:85%;
+        
+    }
+    &__toggle {
+        display:none;
+    }
+
+    &__toggle:checked + &__list{
+        height: auto;
+        opacity:1;
+        display:block;
+    }
+
+    &__list{
+        display:none;
+        li{
+            padding: 10px 24px;
+            border: 1px solid v.$med-gray;
+            
+            
+
+            a{
+                text-decoration: none;
+                color:v.$byui-blue;
+            }
+            
+            &:hover{
+                background-color: v.$light-gray;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .get-info-box{
+        &__list{
+            width:25%;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+    .get-info-box{
+        &__list{
+            width:15%;
+        }
+    }
+
+}

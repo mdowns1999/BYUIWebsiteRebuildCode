@@ -1,0 +1,28 @@
+.presentBoxLeft{
+    margin-top: 50px;
+
+    .heroImage{
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            width:100%;
+        }
+    }
+}
+
+.presentBoxRight{
+    margin-top: 50px;
+}
+
+// @media only screen and (min-width: 760px) {
+//     .galleryBoxes{
+//         flex-direction: row;
+//         gap:5%;
+//     }
+
+//     .interest-box:first-child{
+//         margin-top: 0%;
+//     }
+
+    
+// }

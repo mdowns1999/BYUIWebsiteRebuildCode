@@ -1,0 +1,52 @@
+@use 'variables' as v;
+
+.presentBoxRight{
+    display:flex;
+    flex-direction: column;
+}
+.resources{
+    //background-color: red;
+    width: 100%;
+    margin-bottom: 8%;
+
+    h3{
+        background-color: v.$dark-gray;
+        color:white;
+        font-weight: 400;
+        border: 1px solid black;
+        padding:8px 20px;
+        font-size: 22px
+    }
+
+    &__links{
+        background-color: #f8f9fa;
+
+        a{
+            display:block;
+            border-left: 1px solid v.$light-gray;
+            border-right: 1px solid v.$light-gray;
+            border-bottom: 1px solid v.$light-gray;
+            text-decoration: none;
+            color:v.$byui-blue;
+            padding:8px 20px;
+
+            span{
+                float:right;
+            }
+
+            &:hover{
+                background-color: v.$light-gray;
+            }
+        }
+
+    }
+}
+
+
+@media only screen and (min-width: 700px) {
+
+    // .resources{
+    //     width:50%;
+    // }
+  }
+

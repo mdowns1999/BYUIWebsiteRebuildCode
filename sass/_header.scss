@@ -1,0 +1,63 @@
+@use 'variables' as v;
+[class^='icon-'],
+[class*=' icon-'] {
+    font-weight: 400;
+}
+
+.site-banner{
+    background-color: v.$link-blue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+}
+
+//ICONS
+.site-banner{
+    &__right{
+        margin-right: 20px;
+
+        a {
+            text-decoration: none;
+            color:white;
+            padding:1px;
+        }
+        .common-button-icon {
+            font-size: 30px;
+        }
+        
+    }
+}
+
+.site-header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    background-color:v.$light-gray;
+    border-bottom:1px solid black;
+    
+    h1{
+        font-weight: 300;
+        font-size: 20px;
+        
+    }
+}
+
+form{
+    display:none;
+}
+@media only screen and (min-width: 700px) {
+    .site-header{
+        height:90px;
+        background-color:v.$light-gray;
+        border-bottom:none;
+        justify-content: flex-start;
+        
+        
+        h1{
+            font-size: 30px;
+            margin-left: 10px;
+        }
+    }
+}
